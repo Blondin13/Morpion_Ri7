@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Bad;
+    src: url(font/badgrunge.ttf)
+}
+
+@font-face {
+    font-family: coule;
+    src: url(font/meltedmonster.ttf)
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    background-image: url(img/mur.jpg);
+}
+
+.imgmorpion {
+    width: 10%;
+}
+
+img {
+    width: 35%;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+ 
+table {
+    display: flex;
+    justify-content: center;
+}
+
+aside{
+    flex: 1;
+    text-align: center;
+}
+
+#score1 img{
+    width: 10px; 
+}
+
+#score2 img{
+    width: 10px; 
+}
+ 
+td {
+    border: 3px solid black;
+    border-radius: 2%;
+    width: 140px;
+    height: 90px;
+}
+
+div h2 {
+    font-family: coule;
+    letter-spacing: 2px;
+    font-size: 2.2rem;
+    color: rgb(38, 49, 58);  
+}
+
+#gagnant p{
+    font-family: coule;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    color: rgb(38, 49, 58);
+}
+
+h1 {
+    font-family: coule;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    color: rgb(38, 49, 58);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: coule;
+    font-size: 1.1rem;
+    text-align: center;
+    color: rgb(25, 90, 156);
+    margin-bottom: 10px;
+}
+
+@keyframes clignote {  
+  50% { opacity: 0; }
+}
+
+.anim {
+    animation: clignote 0.5s linear infinite;
+}
+
+input {
+    font-family: Bad;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    color: rgb(25, 90, 156);
+}
+
+.pfin {
+    font-family: Bad;
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(38, 49, 58);
+}
+
+.pscore {
+    font-family: coule;
+    font-size: 2.6rem;
+    color:rgb(25, 90, 156);
+}
+
+.refresh {
+    font-family: Bad;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    color: rgb(25, 90, 156);
+}
+ 
+

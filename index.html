@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="morpion.css" rel="stylesheet" type=text/css>
+    <link rel="shortcut icon" type="image/png" href="img/icon.png"/>
+    <title>Document</title>
+  </head>
+  <body>
+        <h1>REGLE DU JEU MORPION</h1>
+        <p>
+            Le but du jeu est d'aligner avant son adversaire 3 symboles identiques horizontalement, verticalement ou en diagonale.
+            Commencez directement contre un ami(e) ou contre l'ordi en cliquant sur le bouton si dessous.<br><input class="boutonia" Type="button" value="Jouer contre l'ordi" onClick= "playCpu()">
+        </p>
+        <img class="imgmorpion" src="img/morpion.png">
+      <section>
+            <aside id="score1">
+                <p class="pscore">SCORE JOUEUR 1</p>
+            </aside>
+                <table >
+                    <tr>
+                        <td scope="col" onclick="play(this)"></td>
+                        <td scope="col" onclick="play(this)"></td>
+                        <td scope="col" onclick="play(this)"></td>
+                    </tr>
+                    <tr>
+                        <td scope="row" onclick="play(this)"></td>
+                        <td onclick="play(this)"></td>
+                        <td onclick="play(this)"></td>
+                    </tr>
+                    <tr>
+                        <td scope="row" onclick="play(this)"></td>
+                        <td onclick="play(this)"></td>
+                        <td onclick="play(this)"></td>
+                    </tr>
+                </table>
+            <aside id="score2">
+                <p class="pscore">SCORE JOUEUR 2</p>
+            </aside>
+        </section>
+        <div>
+            <h2 id="gagnant">QUI SERA LE GAGNANT ???</h2>
+        </div>
+        <form>
+            <input Type="button" value="Nouvelle partie" onClick="newsGame()">
+        </form>
+        <footer>
+            <p class="pfin">© Ecole Ri7 - 2021 -</p>
+        </footer>
+        <!--form>
+            <input class="boutonia" Type="button" value="Jouer contre l'ordi" onClick= "playCpu()">
+        </form-->
+        <!--form>
+            <input class="bouton2j" Type="button" value="Jouer contre un ami(e)" onClick= "playFriend()">
+        </form-->
+    <script src="morpion.js"></script>
+  </body>
+</html>
