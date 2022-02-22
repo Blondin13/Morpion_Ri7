@@ -13,11 +13,28 @@
     margin: 0;
 }
 
+@keyframes clignote {  
+    50% { opacity: 0; }
+  }
+
+.anim {
+    animation: clignote 0.5s linear infinite;
+}
+
 /*---------------------------------------------------------------*/
 
 body {
     text-align: center;
     background-image: url(img/mur.jpg);
+}
+
+h1 {
+    font-family: coule;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    color: rgb(38, 49, 58);
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .imgmorpion {
@@ -28,16 +45,13 @@ img {
     width: 35%;
 }
 
+/*---------------------------------------------------------------*/
+
 section{
     display: flex;
     justify-content: space-between;
 }
  
-table {
-    display: flex;
-    justify-content: center;
-}
-
 aside{
     flex: 1;
     text-align: center;
@@ -49,6 +63,11 @@ aside{
 
 #score2 img{
     width: 10px; 
+}
+
+table {
+    display: flex;
+    justify-content: center;
 }
  
 td {
@@ -65,15 +84,6 @@ td {
     color: rgb(38, 49, 58);
 }
 
-h1 {
-    font-family: coule;
-    letter-spacing: 2px;
-    font-size: 3rem;
-    color: rgb(38, 49, 58);
-    text-align: center;
-    margin-bottom: 10px;
-}
-
 p {
     font-family: coule;
     font-size: 1.1rem;
@@ -82,13 +92,7 @@ p {
     margin-bottom: 10px;
 }
 
-@keyframes clignote {  
-  50% { opacity: 0; }
-}
-
-.anim {
-    animation: clignote 0.5s linear infinite;
-}
+/*---------------------------------------------------------------*/
 
 input {
     font-family: Bad;
@@ -116,5 +120,8 @@ input {
     font-size: 1.5rem;
     color: rgb(25, 90, 156);
 }
- 
+
+footer{
+    margin-top: 60px;
+}
 

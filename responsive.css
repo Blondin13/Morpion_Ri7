@@ -13,10 +13,11 @@
     }
         
     footer{
-        margin-top: 280px;
+        margin-top: 150px;
     }
 }
 
+/*---------------------------------------------------------------*/
 
 @media screen and (max-width: 400px){
 
@@ -29,6 +30,7 @@
     }
     
     .imgmorpion{
+        
         margin-top: 20px;
     }
     
