@@ -5,7 +5,7 @@ let imgCircle = '<img src="img/rond.png">'; // Variable imgCircle = img qui fait
 let imgCross = '<img src="img/croix.png">'; // Variable imgCross  = img qui fait le croix
 let array = document.querySelectorAll("table td"); // Variable Tableau(array) = document.querySelectorAll("table td") permet de selection mon table et td du html 
 let win = false; // Variable win = faux (false)
-let imgTrait = '<img src="img/trait.png">';
+let imgTrait ='<img src="img/trait.png" class="scoreTrait">';
 let gameModeCpu = false; 
 
 

@@ -13,6 +13,8 @@
     margin: 0;
 }
 
+/*---------------------------------------------------------------*/
+
 body {
     text-align: center;
     background-image: url(img/mur.jpg);
@@ -56,14 +58,7 @@ td {
     height: 90px;
 }
 
-div h2 {
-    font-family: coule;
-    letter-spacing: 2px;
-    font-size: 2.2rem;
-    color: rgb(38, 49, 58);  
-}
-
-#gagnant p{
+#gagnant{
     font-family: coule;
     letter-spacing: 2px;
     font-size: 2rem;

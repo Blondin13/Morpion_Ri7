@@ -1,0 +1,60 @@
+@media screen and (max-width: 850px){
+
+    h1 {
+        font-size: 3rem;  
+    }
+    
+    p{
+        font-size: 1.2rem;
+    }
+    
+    .imgmorpion{
+        margin-top: 200px;
+    }
+        
+    footer{
+        margin-top: 280px;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+
+    h1 {
+        font-size: 2rem;  
+    }
+    
+    p{
+        font-size: 0.7rem;
+    }
+    
+    section{
+        margin-top: 20px;
+    }
+    
+    .pscore {
+        font-size: 1rem;
+    }
+    
+    .scoreTrait{
+        max-width: 10%;
+    }
+    
+    #gagnant{
+        font-size: 1rem;
+    }
+    
+    div{
+        margin-top: 10px;
+    }
+    
+    form{
+        margin-top: 10px;
+    }
+    
+    footer{
+        margin-top: 60px;
+    }
+
+    
+}
