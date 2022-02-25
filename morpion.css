@@ -26,19 +26,22 @@
 body {
     text-align: center;
     background-image: url(img/mur.jpg);
+    background-size: 100%;
 }
 
 h1 {
     font-family: coule;
     letter-spacing: 2px;
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: rgb(38, 49, 58);
     text-align: center;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .imgmorpion {
-    width: 10%;
+    margin-top: 30px;
+    width: 15%;
 }
 
 img {
@@ -85,8 +88,8 @@ td {
 }
 
 p {
-    font-family: coule;
-    font-size: 1.1rem;
+    font-family: bad;
+    font-size: 1.8rem;
     text-align: center;
     color: rgb(25, 90, 156);
     margin-bottom: 10px;
@@ -122,6 +125,6 @@ input {
 }
 
 footer{
-    margin-top: 60px;
+    margin-top: 100px;
 }
 

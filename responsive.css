@@ -1,3 +1,11 @@
+@media screen and (max-width: 1210px){
+
+    footer{
+        margin-top: 50px;
+    }
+
+}
+
 @media screen and (max-width: 850px){
 
     h1 {
@@ -5,15 +13,16 @@
     }
     
     p{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
     
     .imgmorpion{
-        margin-top: 200px;
+        width: 20%;
+        margin-top: 150px;
     }
         
     footer{
-        margin-top: 150px;
+        margin-top: 250px;
     }
 }
 
@@ -30,7 +39,7 @@
     }
     
     .imgmorpion{
-        
+        width: 20%;
         margin-top: 20px;
     }
     
@@ -56,7 +65,7 @@
     }
     
     footer{
-        margin-top: 60px;
+        margin-top: 33px;
     }
 
     
