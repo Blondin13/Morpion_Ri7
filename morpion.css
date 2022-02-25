@@ -112,7 +112,7 @@ input {
 }
 
 .pscore {
-    font-family: coule;
+    font-family: bad;
     font-size: 2.6rem;
     color:rgb(25, 90, 156);
 }
@@ -125,6 +125,6 @@ input {
 }
 
 footer{
-    margin-top: 100px;
+    margin-top: 32px;
 }
 

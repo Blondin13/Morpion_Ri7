@@ -1,7 +1,7 @@
 @media screen and (max-width: 1210px){
 
     footer{
-        margin-top: 50px;
+        margin-top: 0px;
     }
 
 }
@@ -35,7 +35,7 @@
     }
     
     p{
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
     
     .imgmorpion{
@@ -45,7 +45,7 @@
     
     
     .pscore {
-        font-size: 1rem;
+        font-size: 2rem;
     }
     
     .scoreTrait{
@@ -65,7 +65,7 @@
     }
     
     footer{
-        margin-top: 33px;
+        margin-top: 5px;
     }
 
     
