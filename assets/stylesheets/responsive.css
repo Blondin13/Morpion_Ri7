@@ -1,0 +1,270 @@
+/*---------------------------------------------------------------*/
+@media screen and (max-width: 1920px){
+    h1{
+        font-size: 3rem;  
+    }
+    
+    p{
+        font-size: 1rem;
+    }
+
+    .imgmorpion{
+        margin-top: 6px;
+        margin-bottom: 10px;
+        width: 10%;
+    }
+
+    td{
+        width: 130px;
+        height: 110px;
+    }
+    
+
+    .pscore{
+        margin-top: 32px;
+    }
+
+    #score1 img{
+        margin-top: 32px;
+        width: 8px; 
+    }
+    
+    #score2 img{
+        margin-top: 25px;
+        width: 8px; 
+    }
+    
+    #gagnant{
+        font-size: 1.3rem;
+        margin-top: 10px;
+    }
+
+    input{
+        margin-top: 10px;
+    }
+
+    footer{
+        margin-top: 25px;
+        margin-left: 35px;
+    }
+}
+
+/*---------------------------------------------------------------*/
+@media screen and (max-width: 1700px){
+    h1{
+        font-size: 2.5rem;  
+    }
+    
+    p{
+        font-size: 0.9rem;
+    }
+
+    .imgmorpion{
+        margin-top: 1px;
+        margin-bottom: 5px;
+        width: 10%;
+    }
+
+    .pscore{
+        margin-top: 25px;
+    }
+
+    #score1 img{
+        margin-top: 33px;
+        width: 6px; 
+    }
+    
+    #score2 img{
+        margin-top: 25px;
+        width: 6px; 
+    }
+    
+    #gagnant{
+        font-size: 1.3rem;
+    }
+
+    input{
+        margin-top: 6px;
+        font-size: 0.8rem;
+    }
+
+    footer{
+        margin-top: 25px;
+    }
+
+    .pfoot{
+        font-size: 2.4rem;
+    }
+}
+
+/*---------------------------------------------------------------*/
+@media screen and (max-width: 1540px){
+    h1{
+        font-size: 2.5rem;  
+    }
+    
+    p{
+        font-size: 0.9rem;
+    }
+
+    .imgmorpion{
+        margin-top: 1px;
+        margin-bottom: 5px;
+        width: 10%;
+    }
+
+    .pscore{
+        margin-top: 25px;
+    }
+
+    #score1 img{
+        margin-top: 33px;
+        width: 6px; 
+    }
+    
+    #score2 img{
+        margin-top: 25px;
+        width: 6px; 
+    }
+    
+    #gagnant{
+        font-size: 1.3rem;
+    }
+
+    input{
+        margin-top: 6px;
+        font-size: 0.8rem;
+    }
+
+    footer{
+        margin-top: 25px;
+    }
+
+    .pfoot{
+        font-size: 2.4rem;
+    }
+}
+
+/*---------------------------------------------------------------*/
+@media screen and (max-width: 1360px){
+    h1{
+        font-size: 2.1rem;  
+    }
+    
+    p{
+        font-size: 0.9rem;
+    }
+
+    .imgmorpion{
+        margin-top: 1px;
+        margin-bottom: 5px;
+        width: 10%;
+    }
+
+    td{
+        width: 100px;
+        height: 80px;
+    }
+
+    .pscore{
+        margin-top: 25px;
+    }
+
+    #score1 img{
+        margin-top: 33px;
+        width: 6px; 
+    }
+    
+    #score2 img{
+        margin-top: 25px;
+        width: 6px; 
+    }
+    
+    #gagnant{
+        font-size: 1.3rem;
+        margin-top: 1px;
+    }
+
+    input{
+        margin-top: 5px;
+    }
+
+    footer{
+        margin-top: 10px;
+    }
+
+    #span{
+        margin-top: 6px;
+    }
+    #span2{
+        margin-top: 4px;
+    }
+}
+
+/*---------------------------------------------------------------*/
+@media screen and (max-width: 1210px){
+    footer{
+        margin-top: 0px;
+    }
+}
+
+/*---------------------------------------------------------------*/
+@media screen and (max-width: 850px){
+    h1{
+        font-size: 2.5rem;  
+    }
+    
+    p{
+        font-size: 1.3rem;
+    }
+    
+    .imgmorpion{
+        width: 20%;
+        margin-top: 150px;
+    }
+        
+    footer{
+        margin-top: 250px;
+    }
+}
+
+/*---------------------------------------------------------------*/
+@media screen and (max-width: 430px){
+
+    h1{
+        font-size: 1.5rem;  
+    }
+    
+    p{
+        font-size: 0.8rem;
+    }
+    
+    .imgmorpion{
+        width: 15%;
+        margin-top: 20px;
+    }
+    
+    .pscore{
+        font-size: 1.5rem;
+    }
+    
+    .scoreTrait{
+        max-width: 10%;
+    }
+    
+    #gagnant{
+        font-size: 1rem;
+    }
+    
+    div{
+        margin-top: 10px;
+    }
+    
+    form{
+        margin-top: 10px;
+    }
+    
+    footer{
+        margin-bottom: 40px;
+    }
+}
