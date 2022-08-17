@@ -1,7 +1,7 @@
 //---------------------------------------------MES VARIABLES----------------------------------------------------//
-let imgCross = '<img src="../assets/img/croix.png">';// Variable imgCross  = l'img qui fait la croix;
-let imgCircle = '<img src="../assets/img/rond.png">';// Variable imgCircle = l'img qui fait le rond;
-let imgTrait ='<img src="../assets/img/trait.png" class="scoreTrait">';// Variable imgTrait  = l'img qui fait le trait des scores;
+let imgCross = '<img src="./assets/img/croix.png">';// Variable imgCross  = l'img qui fait la croix;
+let imgCircle = '<img src="./assets/img/rond.png">';// Variable imgCircle = l'img qui fait le rond;
+let imgTrait ='<img src="./assets/img/trait.png" class="scoreTrait">';// Variable imgTrait  = l'img qui fait le trait des scores;
 let array = document.querySelectorAll("table td");// Variable array(Tableau) = document.querySelectorAll("table td") permet de selection mon <table> et <td> du html;
 const victoryConditions = [// Constante condition de victoire = [[avec toutes les combinnaisons gagnante]];
   // Horizontale

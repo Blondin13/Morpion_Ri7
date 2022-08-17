@@ -25,7 +25,7 @@
     }
 
     #score1 img{
-        margin-top: 32px;
+        margin-top: 25px;
         width: 8px; 
     }
     
@@ -70,7 +70,7 @@
     }
 
     #score1 img{
-        margin-top: 33px;
+        margin-top: 25px;
         width: 6px; 
     }
     
@@ -118,7 +118,7 @@
     }
 
     #score1 img{
-        margin-top: 33px;
+        margin-top: 25px;
         width: 6px; 
     }
     
@@ -171,7 +171,7 @@
     }
 
     #score1 img{
-        margin-top: 33px;
+        margin-top: 25px;
         width: 6px; 
     }
     
@@ -249,22 +249,84 @@
     }
     
     .scoreTrait{
-        max-width: 10%;
+        max-width: 6%;
     }
     
     #gagnant{
         font-size: 1rem;
     }
+
+    td{
+        width: 60px;
+        height: 60px;
+    }
+
+    td img{
+        width: 30px;
+    }
     
     div{
         margin-top: 10px;
     }
-    
-    form{
-        margin-top: 10px;
+}
+
+/*---------------------------------------------------------------*/
+@media screen and (max-width: 340px){
+
+    h1{
+        font-size: 1.5rem;  
     }
     
+    p{
+        font-size: 0.7rem;
+    }
+    
+    .imgmorpion{
+        width: 15%;
+        margin-top: 20px;
+    }
+    
+    .pscore{
+        font-size: 1.5rem;
+    }
+    
+    .scoreTrait{
+        max-width: 6%;
+    }
+    
+    #gagnant{
+        font-size: 1rem;
+    }
+
+    td{
+        width: 60px;
+        height: 60px;
+    }
+
+    td img{
+        width: 30px;
+    }
+    
+    div{
+        margin-top: 10px;
+    }
+
     footer{
-        margin-bottom: 40px;
+        margin-top: 88px !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .pfoot{
+        font-size: 2rem;
+    }
+
+    #span{
+        font-size: 1.7rem;
+        margin-bottom: 10px;
+    }
+    #span2{
+        font-size: 1.8rem;
+        margin-bottom: 20px;
     }
 }

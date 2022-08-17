@@ -46,9 +46,9 @@ h1{
     margin-bottom: 1px;
 }
 
-p{
+.p-regle{
     font-family: regle;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
     color: rgb(25, 90, 156);
     margin-bottom: 10px;
@@ -87,7 +87,7 @@ aside{
 
 #score2 img{
     width: 7px;
-    margin-top: 35px;
+    margin-top: 32px;
 }
 /*-----------TABLEAU-----------*/
 table{
@@ -137,6 +137,7 @@ footer{
     display: flex;
     justify-content: center;
 }
+
 .pfoot{
     font-family: Bad;
     font-size: 2.8rem;
